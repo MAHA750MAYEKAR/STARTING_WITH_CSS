@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Q1.css">
+    <title>Q1</title>
+    <style>
+        .internal{
+            background-color: rgb(130, 222, 39) ;
+            margin: 2%; 
+            border: 2px solid black;
+
+        
+        }
+        .internal form label{
+            font-style: italic;
+            margin: 2%;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<!-- inline css -->
+    <div style="background-color: rgb(74, 222, 173); margin: 2%;border: 2px solid black ;">
+        <h1>INLINE CSS</h1>
+
+
+        <form action="">
+
+            <label for="fname" style="font-style: italic;text-decoration: underline; color: rgb(129, 42, 229);">First name:</label>
+            <input type="text" id="fname" name="fname" value="John">
+
+            <label for="lname" style="font-style: italic;text-decoration: underline; color: blueviolet; " >Last name:</label>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            
+            <input type="submit"  height="25%" width="25%" value="Submit">
+          </form>
+    </div>
+
+
+
+
+<!-- internal css -->
+    <div class="internal">
+        <h1>INTERNAL CSS</h1>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="riya">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="sresha"><br>
+            <input type="submit" value="Submit">
+          </form>
+
+
+
+    </div>
+
+
+<!-- external css -->
+    <div class="external">
+        <h1>EXTERNAL CSS</h1>
+        <form action="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="JOY">
+            
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="PRIYA"><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+
+
+
+    </div>
+
+    
+</body>
+</html>

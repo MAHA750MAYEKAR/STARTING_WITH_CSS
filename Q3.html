@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+    <style>
+        div{
+            background-color: rgb(140, 163, 163);
+            padding-right: 25%;
+            border: 5px solid black;
+            margin: 20px 50px;
+
+        }
+        
+        *{
+            font-size:large;
+            font-style: italic;
+            font: bold;
+            margin: 20px 15px;
+        }
+        button{
+            background-color: rebeccapurple;
+            border-radius: 2cm;
+           border-style: double;
+           /* margin: 0px 0px; */
+        }
+
+        
+        .Fname{
+            background-color: rgb(224, 115, 115);
+        }
+        .Lname{
+            background-color: rgb(137, 25, 242);
+        }
+        .email{
+            background-color: rgb(72, 90, 84);
+        }
+        .password{
+            background-color: yellowgreen;
+        }
+        #confirmpassword{
+            background-color: rgb(225, 94, 116);
+        }
+        #yourage{
+            background-color: rgb(79, 25, 25);
+            opacity: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action=" thank you" >
+        <div>
+            <label for="Fname">Enter your last name:</label>
+            <input type="text" name="Fname" id="Fname" class="Fname" required minlength="3" placeholder="FIRST NAME">
+            <!-- placeholder is the text which will be displayed in text box whichis temporary -->
+            <br>
+            <br>
+            <label for="Lname">Enter your Last name:</label>
+            <input type="text" name="Lname" id="Lname" class="Lname" required minlength="3" placeholder="LAST NAME" >
+
+            <!-- for and id attribute should have same value -->
+            <br><br>
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="email"class="email" required minlength="3">
+            <br><br>
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" id="password" class="password" required minlength="10">
+            <br><br>
+            <label for="confirmpassword">Enter your password</label>
+            <input type="password" name="password" id="confirmpassword" required minlength="10">
+            <br><br>
+            <label for="yourage">Enter your age</label>
+            <input type="number" name="yourage" id="yourage" class="yourage" required min="1" max="150" placeholder="28">
+            <br><br>
+            <label for="male"> GENDER:
+                <br>
+                <label for="male"> Male</label>
+                <input type="radio" name="gender" id="male">
+                <br>
+                <label for="Female"> Female</label>
+                <input type="radio" name="gender" id=Female">
+                <br>
+                <label for="Others"> Others</label>
+                <input type="radio" name="gender" id="Others">
+            </label>
+            <br><br>
+            <label for="term">I agree to terms and conditions</label>
+            <input type="checkbox" name="term" id="term" required>
+            <br>
+            <br>
+            <button type="submit"  class="button">register</button>
+      
+            
+
+
+
+
+
+
+        </div>
+    </form>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+.external{
+    background-color: rgb(222, 39, 164) ;
+    margin: 2%; 
+    border: 2px solid black;
+
+
+}
+.external form label{
+    font-style: italic;
+    margin: 2%;
+}
